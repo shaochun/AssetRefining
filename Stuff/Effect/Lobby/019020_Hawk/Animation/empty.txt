@@ -1,2 +1,0 @@
-This is a dummy file ensuring the folder being checked into git. 
-Feel free to remove this file when others are created.
