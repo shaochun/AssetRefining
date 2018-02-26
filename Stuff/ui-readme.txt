@@ -59,7 +59,7 @@ UI/Ingame/
         Sprite/
             TX_<角色名稱>_skill_*.*    #註: 1st*: 01~04 , 2nd*: extension
                                        #例: TX_Molos_skill01.png
-                                       
+
     StatusSystem/
         Prefab/
         Sprite/
@@ -87,27 +87,8 @@ UI/Setting/
     Prefab/
     Sprite/
 
-# 真的不知如何分類的UI放這裡.
+# 真的不知如何分類, 暫代資源的UI放這裡.
 UI/Misc/
-
 
     Prefab/
     Sprite/
-
-    Animation/
-        *.anim 档放这里.
-
-    Common/
-        # 共用贴图放这里.
-        Sprite/
-
-    Skill/
-
-        ?
-
-    Sprite/
-
-        ?
-
-
-        Prefab/

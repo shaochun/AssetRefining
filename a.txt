@@ -1,13 +1,11 @@
-列出資料夾 PATH
-磁碟區序號為 E290-A14E
-D:.
-│  a.txt
-│  
 └─Stuff
+    │  a.txt
     │  character-readme.txt
     │  effect-readme.txt
     │  environment-readme.txt
     │  exception-readme.txt
+    │  sound-readme.txt
+    │  ui-readme.txt
     │  
     ├─Character
     │  ├─010000_HouYi
@@ -285,6 +283,8 @@ D:.
     │      │          
     │      ├─Environment
     │      │  └─Material
+    │      │          empty.txt
+    │      │          
     │      └─UI
     │          ├─Animation
     │          │      AM_JustTest.anim
@@ -436,10 +436,22 @@ D:.
     │          UpoSpace_shine.png
     │          
     ├─Lobby
-    ├─Sound
-    │      bg.mp3
-    │      combat_HouYi_Hit1.ogg
+    │      empty.txt
     │      
+    ├─Sound
+    │  ├─Common
+    │  │      empty.txt
+    │  │      
+    │  ├─Ingame
+    │  │      bg.mp3
+    │  │      combat_HouYi_Hit1.ogg
+    │  │      
+    │  ├─Lobby
+    │  │      empty.txt
+    │  │      
+    │  └─Store
+    │          empty.txt
+    │          
     └─UI
         ├─Ingame
         │  ├─Battle
@@ -475,6 +487,10 @@ D:.
         │  │          BuffIcon2.png
         │  │          BuffIconMask.png
         │  │          
+        │  ├─Common
+        │  │  └─Sprite
+        │  │          skill_Frame.png
+        │  │          
         │  ├─DeadNotice
         │  │  ├─Prefab
         │  │  │      AddHealthText.prefab
@@ -493,8 +509,29 @@ D:.
         │  │          empty.txt
         │  │          
         │  ├─Joystick
-        │  │  └─Prefab
-        │  │          JoysticSceneArea.prefab
+        │  │  ├─Prefab
+        │  │  │      FightButtonGroup.prefab
+        │  │  │      JoysticSceneArea.prefab
+        │  │  │      
+        │  │  └─Sprite
+        │  │          arrow_128.png
+        │  │          Cycle01.png
+        │  │          TX_UI_Joystick_1_BC.png
+        │  │          TX_UI_Joystick_BC.png
+        │  │          UI_Cancel_Skill.png
+        │  │          UI_Cancel_Skill2.png
+        │  │          UI_joystic_01.png
+        │  │          UI_joystic_01_1.png
+        │  │          UI_joystic_02.png
+        │  │          UI_joystic_02_1.png
+        │  │          UI_joystic_03.png
+        │  │          UI_joystic_04.png
+        │  │          UI_joystic_04_1.png
+        │  │          UI_joystic_05.png
+        │  │          UI_joystic_05_1.png
+        │  │          UI_joystic_skill.png
+        │  │          UI_StartGame.png
+        │  │          UI_StartGame_1.png
         │  │          
         │  ├─MiniMap
         │  │  ├─MaskTest
@@ -577,106 +614,72 @@ D:.
         │  │          UI_minmap_icoon_rim_red.png
         │  │          UI_minmap_icoon_rim_red_arrow.png
         │  │          
-        │  └─SkillIcon
-        │      ├─Prefab
-        │      │      empty.txt
-        │      │      
-        │      └─Sprite
-        │              empty.txt
+        │  ├─Misc
+        │  │  └─Animation
+        │  │          FirstKill.anim
+        │  │          
+        │  ├─Skill
+        │  │  ├─Prefab
+        │  │  │      CDControl.prefab
+        │  │  │      
+        │  │  └─Sprite
+        │  │          TX_Hawk_skill_01.png
+        │  │          TX_Hawk_skill_02.png
+        │  │          TX_Hawk_skill_03.png
+        │  │          TX_Hawk_skill_04.png
+        │  │          TX_Molos_skill_01.png
+        │  │          TX_Molos_skill_02.png
+        │  │          TX_Molos_skill_03.png
+        │  │          TX_Molos_skill_04.png
+        │  │          
+        │  └─StatusSystem
+        │      └─Prefab
+        │              CountDownObj.prefab
+        │              ShieldBar.prefab
+        │              StateBar.prefab
+        │              StatusSystem.prefab
         │              
         ├─Loading
         │  ├─Prefab
-        │  │      empty.txt
+        │  │      SelectGamePanel.prefab
         │  │      
         │  └─Sprite
-        │          empty.txt
+        │          CloseButtom.png
+        │          ExitWar.png
+        │          LoginBG.png
+        │          LoginButtom.png
+        │          setUpBG.png
+        │          setUpTmp1.png
         │          
         ├─Lobby
         │  ├─BigIcon
-        │  │      010000.png
-        │  │      010001.png
-        │  │      010002.png
-        │  │      
+        │  │  └─Sprite
+        │  │          010000.png
+        │  │          010001.png
+        │  │          010002.png
+        │  │          
         │  ├─HeroSelection
-        │  │      UI_HeroSelect.png
-        │  │      UI_HeroSelect_0000.png
-        │  │      UI_HeroSelect_0001.png
-        │  │      UI_HeroSelect_1.png
-        │  │      UI_HeroSelect_2.png
-        │  │      UI_HeroSelect_frame_1.png
-        │  │      UI_HeroSelect_frame_2.png
-        │  │      
+        │  │  └─Sprite
+        │  │          UI_HeroSelect.png
+        │  │          UI_HeroSelect_0000.png
+        │  │          UI_HeroSelect_0001.png
+        │  │          UI_HeroSelect_1.png
+        │  │          UI_HeroSelect_2.png
+        │  │          UI_HeroSelect_frame_1.png
+        │  │          UI_HeroSelect_frame_2.png
+        │  │          
         │  └─SkillIcon
         │          empty.txt
         │          
         ├─Misc
-        │  │  FightButtonGroup.prefab
-        │  │  SelectGamePanel.prefab
-        │  │  
-        │  ├─Animation
-        │  │      FirstKill.anim
-        │  │      
-        │  ├─Common
-        │  │  ├─Sprite
-        │  │  │      arrow_128.png
-        │  │  │      Cycle01.png
-        │  │  │      TX_UI_Joystick_1_BC.png
-        │  │  │      TX_UI_Joystick_BC.png
-        │  │  │      UI_Cancel_Skill.png
-        │  │  │      UI_Cancel_Skill2.png
-        │  │  │      UI_joystic_01.png
-        │  │  │      UI_joystic_01_1.png
-        │  │  │      UI_joystic_02.png
-        │  │  │      UI_joystic_02_1.png
-        │  │  │      UI_joystic_03.png
-        │  │  │      UI_joystic_04.png
-        │  │  │      UI_joystic_04_1.png
-        │  │  │      UI_joystic_05.png
-        │  │  │      UI_joystic_05_1.png
-        │  │  │      UI_joystic_skill.png
-        │  │  │      UI_StartGame.png
-        │  │  │      UI_StartGame_1.png
-        │  │  │      
-        │  │  └─Tmp
-        │  │          BGtmp.png
-        │  │          FakeSkill.png
-        │  │          info.png
-        │  │          magnifier.png
-        │  │          RightIcons.png
-        │  │          store.png
-        │  │          Team.png
-        │  │          
-        │  ├─Skill
-        │  │  │  BuffIconGroup.prefab
-        │  │  │  CDControl.prefab
-        │  │  │  skill_Frame.png
-        │  │  │  
-        │  │  ├─0000
-        │  │  │      skill_01.png
-        │  │  │      skill_02.png
-        │  │  │      skill_03.png
-        │  │  │      skill_04.png
-        │  │  │      
-        │  │  └─0001
-        │  │          skill_01.png
-        │  │          skill_02.png
-        │  │          skill_03.png
-        │  │          skill_04.png
-        │  │          
-        │  ├─Sprite
-        │  │      CloseButtom.png
-        │  │      ExitWar.png
-        │  │      LoginBG.png
-        │  │      LoginButtom.png
-        │  │      setUpBG.png
-        │  │      setUpTmp1.png
-        │  │      
-        │  └─StatusSystem
-        │          CountDownObj.prefab
-        │          ShieldBar.prefab
-        │          StateBar.prefab
-        │          StatusSystem.prefab
+        │  └─Tmp
+        │          BGtmp.png
+        │          FakeSkill.png
+        │          info.png
+        │          magnifier.png
+        │          RightIcons.png
+        │          store.png
+        │          Team.png
         │          
         └─Setting
                 empty.txt
-                
