@@ -9,66 +9,26 @@
 
 Environment/
 
-	Environment/Animation
+    Environment/Animation
 
-	Environment/FBX
+    Environment/FBX
 
-		SK_<英文名稱>_*.FBX
-		SM_<英文名稱>_*.FBX
-
-
-	Environment/Lightmap
-
-		焙烘好的 Lightmap 會放這裡. 子文件夾的命名和場景檔(.unity)相同.
-
-	Environment/Material
-
-		MT_<英文名稱>_*.mat
-
-	Environment/Prefab
-
-		<英文名稱>_*.prefab
-
-	Environment/Texture
-
-		TX_<英文名稱>_*.*    (1st*: Prefix, 2nd*: extension)
+        SK_<英文名稱>_*.FBX
+        SM_<英文名稱>_*.FBX
 
 
+    Environment/Lightmap
 
-	Environment/Prefab/<數字>_<英文名稱>/
+        焙烘好的 Lightmap 會放這裡. 子文件夾的命名和場景檔(.unity)相同.
 
-		let <數字>     = "010000";
-		let <英文名稱> = "HouYi";
+    Environment/Material
 
-		會有四個子文件夾: (資料夾一律用單數命名)
+        MT_<英文名稱>_*.mat
 
-			Animation/
-				AC_<英文名稱>_Animation.controller
-				AC_<英文名稱>_Animation.overController 
+    Environment/Prefab
 
-			FBX/
-				SK_<英文名稱>.FBX
+        <英文名稱>_*.prefab
 
-			Material/
-				MT_<英文名稱>_*.mat
+    Environment/Texture
 
-			Texture/
-		
-
-	Environment/Animation
-
-	Environment/Animation
-
-	Environment/Animation
-
-	Environment/Animation
-
-
-
-	Environment/Prefab/
-
-		所有的 Prefab 放這兒.
-
-		命名規則: <數字>.prefab
-
-
+        TX_<英文名稱>_*.*    (1st*: Prefix, 2nd*: extension)

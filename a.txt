@@ -1,0 +1,682 @@
+列出資料夾 PATH
+磁碟區序號為 E290-A14E
+D:.
+│  a.txt
+│  
+└─Stuff
+    │  character-readme.txt
+    │  effect-readme.txt
+    │  environment-readme.txt
+    │  exception-readme.txt
+    │  
+    ├─Character
+    │  ├─010000_HouYi
+    │  │  ├─Animation
+    │  │  │      AC_HouYi_Animation.overrideController
+    │  │  │      
+    │  │  ├─FBX
+    │  │  │      SK_HouYi.FBX
+    │  │  │      
+    │  │  ├─Material
+    │  │  │      MT_HouYi.mat
+    │  │  │      MT_HouYi_01.mat
+    │  │  │      
+    │  │  └─Texture
+    │  │          TX_HouYi_D.tga
+    │  │          
+    │  ├─019020_Hawk
+    │  │  ├─Animation
+    │  │  │      AC_Hawk_Animation.overrideController
+    │  │  │      
+    │  │  ├─FBX
+    │  │  │      SK_Hawk.FBX
+    │  │  │      
+    │  │  ├─Material
+    │  │  │      MT_Hawk.mat
+    │  │  │      
+    │  │  └─Texture
+    │  │          TX_Hawk_D.tga
+    │  │          TX_Hawk_N.tga
+    │  │          TX_Hawk_Position.tga
+    │  │          TX_Hawk_S.tga
+    │  │          
+    │  └─Prefab
+    │          010000.prefab
+    │          019020.prefab
+    │          
+    ├─Effect
+    │  ├─Common
+    │  │  ├─Animation
+    │  │  │      AM_JustTest.anim
+    │  │  │      
+    │  │  ├─FBX
+    │  │  │      SM_VFX_Circle01.FBX
+    │  │  │      SM_VFX_Circle02.FBX
+    │  │  │      SM_VFX_Cylinder.FBX
+    │  │  │      
+    │  │  ├─Material
+    │  │  │      MT_JustTest01.mat
+    │  │  │      MT_JustTest02.mat
+    │  │  │      
+    │  │  ├─Prefab
+    │  │  │      PF_JustTest01.prefab
+    │  │  │      PF_JustTest02.prefab
+    │  │  │      PF_JustTest03.prefab
+    │  │  │      
+    │  │  └─Texture
+    │  │          TX_Smoke_003_D.png
+    │  │          TX_Smoke_004_D.png
+    │  │          TX_Smoke_005_D.png
+    │  │          TX_Smoke_006_D.png
+    │  │          TX_Spark_002_D.png
+    │  │          TX_Sphere_001_D.png
+    │  │          TX_Star_001_D.png
+    │  │          TX_Star_002_D.png
+    │  │          TX_Trail_001_D.png
+    │  │          TX_Trail_002_D.png
+    │  │          TX_Trail_003_D.png
+    │  │          TX_Trail_004_D.png
+    │  │          TX_Trail_005_D.png
+    │  │          TX_Trail_006_D.png
+    │  │          TX_Trail_010_D.png
+    │  │          TX_Trail_011_D.png
+    │  │          TX_Trail_012_D.png
+    │  │          TX_Trail_013_D.png
+    │  │          TX_Water_001_D.png
+    │  │          TX_Water_002_D.png
+    │  │          TX_Water_003_D.png
+    │  │          TX_Water_004_D.png
+    │  │          TX_Water_005_D.png
+    │  │          TX_Water_009_D.png
+    │  │          TX_White_001_D.png
+    │  │          
+    │  ├─InGame
+    │  │  ├─019020_Hawk
+    │  │  │  ├─Animation
+    │  │  │  │      AM_VFX_019020_Hawk_Attack01.anim
+    │  │  │  │      AM_VFX_019020_Hawk_Attack02.anim
+    │  │  │  │      AM_VFX_019020_Hawk_Attack03.anim
+    │  │  │  │      
+    │  │  │  ├─Material
+    │  │  │  │      MT_VFX_019020_Hawk_Attack01_Slash.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Attack01_Slash3D.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill1_Cast_Smoke.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill1_Common_Glow.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill1_Hit_Smoke.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill1_Hit_Spark.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill1_Trail.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill1_Trail_HemiSphere TEST.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill1_Trail_HemiSphere.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill2_Attack_3DSwirl.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill2_Attack_Lightning.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill2_Hit_glow.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill2_Hit_slash.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill2_Weapon.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill2_Weapon_Electric.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill3_Down_Bottom.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill3_Down_Shockwave.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill3_Down_Slash1.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill3_Down_Stone.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill3_Up_Btm.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill3_Up_Btm_Wave.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill3_Up_Ring_out.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill4_Bubble.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill4_Shield_Circle.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill4_Shield_Start_Smoke.mat
+    │  │  │  │      MT_VFX_019020_Hawk_Skill4_Sphere.mat
+    │  │  │  │      
+    │  │  │  └─Prefab
+    │  │  │          PF_VFX_019020_Hawk_Attack01.prefab
+    │  │  │          PF_VFX_019020_Hawk_Attack02.prefab
+    │  │  │          PF_VFX_019020_Hawk_Attack03.prefab
+    │  │  │          PF_VFX_019020_Hawk_Common_Hit.prefab
+    │  │  │          PF_VFX_019020_Hawk_Skill1_Cast.prefab
+    │  │  │          PF_VFX_019020_Hawk_Skill1_Hit.prefab
+    │  │  │          PF_VFX_019020_Hawk_Skill1_Trail.prefab
+    │  │  │          PF_VFX_019020_Hawk_Skill2_Attack.prefab
+    │  │  │          PF_VFX_019020_Hawk_Skill2_Hit.prefab
+    │  │  │          PF_VFX_019020_Hawk_Skill2_Weapon.prefab
+    │  │  │          PF_VFX_019020_Hawk_Skill3_Down.prefab
+    │  │  │          PF_VFX_019020_Hawk_Skill3_Hit.prefab
+    │  │  │          PF_VFX_019020_Hawk_Skill3_Up.prefab
+    │  │  │          PF_VFX_019020_Hawk_Skill4_Shield.prefab
+    │  │  │          PF_VFX_019020_Hawk_Skill4_Shield_Start.prefab
+    │  │  │          
+    │  │  ├─019040_Molos
+    │  │  │  ├─Animation
+    │  │  │  │      AM_VFX_019040_Moloes_Skill02.anim
+    │  │  │  │      
+    │  │  │  ├─Material
+    │  │  │  │      MT_VFX_019040_Moloes_Attack01_Slash3D.mat
+    │  │  │  │      MT_VFX_019040_Moloes_Attack01_Slash3D_g.mat
+    │  │  │  │      MT_VFX_019040_Moloes_Attack01_Splash.mat
+    │  │  │  │      MT_VFX_019040_Moloes_Common_Hit_slash1.mat
+    │  │  │  │      MT_VFX_019040_Moloes_Common_Hit_Splash.mat
+    │  │  │  │      MT_VFX_019040_Moloes_Common_Hit_Stone.mat
+    │  │  │  │      MT_VFX_019040_Moloes_Skill01_Slash3D.mat
+    │  │  │  │      MT_VFX_019040_Moloes_Skill01_Sphere.mat
+    │  │  │  │      MT_VFX_019040_Moloes_Skill01_Sphere_burst.mat
+    │  │  │  │      MT_VFX_019040_Moloes_Skill01_Trail.mat
+    │  │  │  │      MT_VFX_019040_Moloes_Skill02_Smoke.mat
+    │  │  │  │      
+    │  │  │  └─Prefab
+    │  │  │          PF_VFX_019040_Moloes_Attack01.prefab
+    │  │  │          PF_VFX_019040_Moloes_Common_Hit.prefab
+    │  │  │          PF_VFX_019040_Moloes_Skill01.prefab
+    │  │  │          PF_VFX_019040_Moloes_Skill02.prefab
+    │  │  │          PF_VFX_019040_Moloes_Skill02_Hit.prefab
+    │  │  │          
+    │  │  ├─Battle
+    │  │  │  ├─Animation
+    │  │  │  │      AM_JustTest.anim
+    │  │  │  │      
+    │  │  │  ├─Material
+    │  │  │  │      MT_JustTest01.mat
+    │  │  │  │      MT_JustTest02.mat
+    │  │  │  │      
+    │  │  │  └─Prefab
+    │  │  │          PF_JustTest01.prefab
+    │  │  │          PF_JustTest02.prefab
+    │  │  │          PF_JustTest03.prefab
+    │  │  │          
+    │  │  ├─Environment
+    │  │  │  ├─Animation
+    │  │  │  │      AM_JustTest.anim
+    │  │  │  │      
+    │  │  │  ├─Material
+    │  │  │  │      MT_JustTest01.mat
+    │  │  │  │      MT_JustTest02.mat
+    │  │  │  │      
+    │  │  │  └─Prefab
+    │  │  │          PF_JustTest01.prefab
+    │  │  │          PF_JustTest02.prefab
+    │  │  │          PF_JustTest03.prefab
+    │  │  │          
+    │  │  ├─Object
+    │  │  │  ├─Animation
+    │  │  │  │      AM_JustTest.anim
+    │  │  │  │      
+    │  │  │  ├─Material
+    │  │  │  │      MT_JustTest01.mat
+    │  │  │  │      MT_JustTest02.mat
+    │  │  │  │      
+    │  │  │  └─Prefab
+    │  │  │          PF_JustTest01.prefab
+    │  │  │          PF_JustTest02.prefab
+    │  │  │          PF_JustTest03.prefab
+    │  │  │          
+    │  │  ├─State
+    │  │  │  ├─Animation
+    │  │  │  │      AM_JustTest.anim
+    │  │  │  │      
+    │  │  │  ├─Material
+    │  │  │  │      MT_JustTest01.mat
+    │  │  │  │      MT_JustTest02.mat
+    │  │  │  │      
+    │  │  │  └─Prefab
+    │  │  │          PF_JustTest01.prefab
+    │  │  │          PF_JustTest02.prefab
+    │  │  │          PF_JustTest03.prefab
+    │  │  │          
+    │  │  └─UI
+    │  │      ├─Animation
+    │  │      │      AM_JustTest.anim
+    │  │      │      
+    │  │      ├─Material
+    │  │      │      MT_JustTest01.mat
+    │  │      │      MT_JustTest02.mat
+    │  │      │      
+    │  │      └─Prefab
+    │  │              PF_JustTest01.prefab
+    │  │              PF_JustTest02.prefab
+    │  │              PF_JustTest03.prefab
+    │  │              
+    │  └─Lobby
+    │      ├─019020_Hawk
+    │      │  │  TM_Lobby_Hawk.playable
+    │      │  │  
+    │      │  ├─Animation
+    │      │  │      AM_JustTest.anim
+    │      │  │      
+    │      │  ├─Material
+    │      │  │      MT_VFX_Lobby_Hawk_Blade.mat
+    │      │  │      MT_VFX_Lobby_Hawk_Blade_SW.mat
+    │      │  │      MT_VFX_Lobby_Hawk_Fire_1.mat
+    │      │  │      MT_VFX_Lobby_Hawk_Fire_Torus.mat
+    │      │  │      MT_VFX_Lobby_Hawk_Smoke_1.mat
+    │      │  │      MT_VFX_Lobby_Hawk_Smoke_Circle.mat
+    │      │  │      MT_VFX_Lobby_Hawk_Smoke_CircleNew.mat
+    │      │  │      MT_VFX_Lobby_Hawk_Smoke_Glow.mat
+    │      │  │      MT_VFX_Lobby_Hawk_Smoke_GlowCircle.mat
+    │      │  │      MT_VFX_Lobby_Hawk_Smoke_SparkParticle.mat
+    │      │  │      MT_VFX_Lobby_Hwak_Slash_1.mat
+    │      │  │      MT_VFX_Lobby_Hwak_Slash_SW.mat
+    │      │  │      
+    │      │  └─Prefab
+    │      │          PF_VFX_Lobby_019020_Hawk_Blade.prefab
+    │      │          PF_VFX_Lobby_019020_Hawk_Fire.prefab
+    │      │          PF_VFX_Lobby_019020_Hawk_Slash_1st.prefab
+    │      │          PF_VFX_Lobby_019020_Hawk_Slash_2nd.prefab
+    │      │          PF_VFX_Lobby_019020_Hawk_Smoke.prefab
+    │      │          
+    │      ├─019040_Molos
+    │      │  ├─Animation
+    │      │  │      AM_VFX_019040_Moloes_Skill02.anim
+    │      │  │      
+    │      │  ├─Material
+    │      │  │      MT_VFX_019040_Moloes_Attack01_Slash3D.mat
+    │      │  │      MT_VFX_019040_Moloes_Attack01_Slash3D_g.mat
+    │      │  │      MT_VFX_019040_Moloes_Attack01_Splash.mat
+    │      │  │      MT_VFX_019040_Moloes_Common_Hit_slash1.mat
+    │      │  │      MT_VFX_019040_Moloes_Common_Hit_Splash.mat
+    │      │  │      MT_VFX_019040_Moloes_Common_Hit_Stone.mat
+    │      │  │      MT_VFX_019040_Moloes_Skill01_Slash3D.mat
+    │      │  │      MT_VFX_019040_Moloes_Skill01_Sphere.mat
+    │      │  │      MT_VFX_019040_Moloes_Skill01_Sphere_burst.mat
+    │      │  │      MT_VFX_019040_Moloes_Skill01_Trail.mat
+    │      │  │      MT_VFX_019040_Moloes_Skill02_Smoke.mat
+    │      │  │      
+    │      │  └─Prefab
+    │      │          PF_VFX_Lobby_019040_Moloes_Attack01.prefab
+    │      │          PF_VFX_Lobby_019040_Moloes_Common_Hit.prefab
+    │      │          PF_VFX_Lobby_019040_Moloes_Skill01.prefab
+    │      │          PF_VFX_Lobby_019040_Moloes_Skill02.prefab
+    │      │          PF_VFX_Lobby_019040_Moloes_Skill02_Hit.prefab
+    │      │          
+    │      ├─Environment
+    │      │  └─Material
+    │      └─UI
+    │          ├─Animation
+    │          │      AM_JustTest.anim
+    │          │      
+    │          ├─Material
+    │          │      MT_JustTest01.mat
+    │          │      MT_JustTest02.mat
+    │          │      
+    │          └─Prefab
+    │                  PF_JustTest01.prefab
+    │                  PF_JustTest02.prefab
+    │                  PF_JustTest03.prefab
+    │                  
+    ├─Environment
+    │  ├─Animation
+    │  │      empty.txt
+    │  │      
+    │  ├─FBX
+    │  │      5v5.FBX
+    │  │      Bush.FBX
+    │  │      cao01.fbx
+    │  │      cao02.fbx
+    │  │      ChMapA_Sunshine.FBX
+    │  │      DivneArenaField.FBX
+    │  │      Flower_1.FBX
+    │  │      Grass_1.FBX
+    │  │      Grass_2.FBX
+    │  │      Grass_3.FBX
+    │  │      Grass_4.FBX
+    │  │      Prop_1.FBX
+    │  │      Prop_2.FBX
+    │  │      Prop_3.FBX
+    │  │      Prop_4.FBX
+    │  │      Prop_5.FBX
+    │  │      Prop_6.FBX
+    │  │      Prop_7.FBX
+    │  │      Prop_7A.FBX
+    │  │      Prop_8.FBX
+    │  │      Rock.FBX
+    │  │      SideCliff.FBX
+    │  │      SideWall.FBX
+    │  │      Tree_1.FBX
+    │  │      Tree_1A.FBX
+    │  │      Tree_2.FBX
+    │  │      Tree_2A.FBX
+    │  │      Tree_2B.FBX
+    │  │      Tree_2B1.FBX
+    │  │      Tree_2B2.FBX
+    │  │      Tree_2C.FBX
+    │  │      UpoSpace_shine.FBX
+    │  │      VOH_Tower_01.FBX
+    │  │      Wood_1.FBX
+    │  │      Wood_2.FBX
+    │  │      Wood_3.FBX
+    │  │      
+    │  ├─Lightmap
+    │  │  ├─MiniMapSampleMain
+    │  │  │      NavMesh.asset
+    │  │  │      
+    │  │  ├─Scene_0000
+    │  │  │      LightingData.asset
+    │  │  │      Lightmap-0_comp_light.exr
+    │  │  │      Lightmap-10_comp_light.exr
+    │  │  │      Lightmap-11_comp_light.exr
+    │  │  │      Lightmap-12_comp_light.exr
+    │  │  │      Lightmap-1_comp_light.exr
+    │  │  │      Lightmap-2_comp_light.exr
+    │  │  │      Lightmap-3_comp_light.exr
+    │  │  │      Lightmap-4_comp_light.exr
+    │  │  │      Lightmap-5_comp_light.exr
+    │  │  │      Lightmap-6_comp_light.exr
+    │  │  │      Lightmap-7_comp_light.exr
+    │  │  │      Lightmap-8_comp_light.exr
+    │  │  │      Lightmap-9_comp_light.exr
+    │  │  │      
+    │  │  └─Scene_0000_wrap
+    │  │          LightingData.asset
+    │  │          Lightmap-0_comp_light.exr
+    │  │          Lightmap-1_comp_light.exr
+    │  │          Lightmap-2_comp_light.exr
+    │  │          Lightmap-3_comp_light.exr
+    │  │          Lightmap-4_comp_light.exr
+    │  │          Lightmap-5_comp_light.exr
+    │  │          Lightmap-6_comp_light.exr
+    │  │          
+    │  ├─Material
+    │  │      3v3_b_plant.mat
+    │  │      5V5.mat
+    │  │      5v5_2.mat
+    │  │      Cao01.mat
+    │  │      ChMapA_Sunshine.mat
+    │  │      DA_Fire2.mat
+    │  │      DA_FireLight.mat
+    │  │      DA_FireSpark.mat
+    │  │      DA_fog.mat
+    │  │      DA_StardShieldBlue.mat
+    │  │      DA_StardShieldRed.mat
+    │  │      DivineArena.mat
+    │  │      DivineArena_Sunshine.mat
+    │  │      GrassTile.mat
+    │  │      NaturalAlpha.mat
+    │  │      RockTile.mat
+    │  │      UpoSpace_shine.mat
+    │  │      Upo_Particle.mat
+    │  │      
+    │  ├─Prefab
+    │  │      3vs3_LightSetting.prefab
+    │  │      Cao01.prefab
+    │  │      Plane.prefab
+    │  │      Porp_02.prefab
+    │  │      Porp_07.prefab
+    │  │      Prop_01.prefab
+    │  │      Prop_03.prefab
+    │  │      Tree_01.prefab
+    │  │      Tree_01A.prefab
+    │  │      Tree_02.prefab
+    │  │      Tree_02A.prefab
+    │  │      Tree_02B.prefab
+    │  │      Tree_02B1.prefab
+    │  │      Tree_02B2.prefab
+    │  │      Tree_2C.prefab
+    │  │      Wood_01.prefab
+    │  │      Wood_02.prefab
+    │  │      Wood_03.prefab
+    │  │      
+    │  └─Texture
+    │          3v3_b_plant.tga
+    │          3v3_b_plant_1.tga
+    │          5V5.png
+    │          5V5_1.png
+    │          5v5_2.png
+    │          5v5_2_1.png
+    │          ChMapA_SunShine.png
+    │          DA_Fire2.png
+    │          DA_FireLight.png
+    │          DA_FireSpark.png
+    │          DA_fog.TGA
+    │          DA_StartShied1.png
+    │          DA_StartShied2.png
+    │          DivineArena.png
+    │          DivineArena_1.png
+    │          DivineArena_SunShine.png
+    │          GrassTile.png
+    │          GrassTile_1.png
+    │          NaturalAlpha.tga
+    │          NaturalAlpha_1.tga
+    │          RockTile.png
+    │          RockTile_1.png
+    │          UpoSpace_shine.png
+    │          
+    ├─Lobby
+    ├─Sound
+    │      bg.mp3
+    │      combat_HouYi_Hit1.ogg
+    │      
+    └─UI
+        ├─Ingame
+        │  ├─Battle
+        │  │  ├─Prefab
+        │  │  │      empty.txt
+        │  │  │      
+        │  │  └─Sprite
+        │  │          UI_Battle.png
+        │  │          UI_Defeat.png
+        │  │          UI_kill_02.png
+        │  │          UI_kill_board_blue.png
+        │  │          UI_kill_board_blue_1.png
+        │  │          UI_kill_board_dead.png
+        │  │          UI_kill_board_dead_1.png
+        │  │          UI_kill_board_red.png
+        │  │          UI_kill_board_red_1.png
+        │  │          UI_kill_Houyi.png
+        │  │          UI_kill_line.png
+        │  │          UI_kill_line_1.png
+        │  │          UI_kill_Lvbu.png
+        │  │          UI_kill_rim_blue.png
+        │  │          UI_kill_rim_blue_1.png
+        │  │          UI_kill_rim_red.png
+        │  │          UI_kill_rim_red_1.png
+        │  │          UI_Victory.png
+        │  │          
+        │  ├─Buff
+        │  │  ├─Prefab
+        │  │  │      BuffIconGroup.prefab
+        │  │  │      
+        │  │  └─Sprite
+        │  │          BuffIcon1.png
+        │  │          BuffIcon2.png
+        │  │          BuffIconMask.png
+        │  │          
+        │  ├─DeadNotice
+        │  │  ├─Prefab
+        │  │  │      AddHealthText.prefab
+        │  │  │      AddManaText.prefab
+        │  │  │      BasicAttackPrefab.prefab
+        │  │  │      BasicMagicPrefab.prefab
+        │  │  │      DeadCountdownTimer.prefab
+        │  │  │      DeadMask.prefab
+        │  │  │      DeadNotice.prefab
+        │  │  │      DelHealthText.prefab
+        │  │  │      DelManaText.prefab
+        │  │  │      KillNotice.prefab
+        │  │  │      TrueDamagePrefab.prefab
+        │  │  │      
+        │  │  └─Sprite
+        │  │          empty.txt
+        │  │          
+        │  ├─Joystick
+        │  │  └─Prefab
+        │  │          JoysticSceneArea.prefab
+        │  │          
+        │  ├─MiniMap
+        │  │  ├─MaskTest
+        │  │  │      Mask.shader
+        │  │  │      Masked.shader
+        │  │  │      MaterialMask.mat
+        │  │  │      MaterialMasked.mat
+        │  │  │      test.unity
+        │  │  │      
+        │  │  ├─Prefab
+        │  │  │  ├─Entry
+        │  │  │  │      MiniMapCamera.prefab
+        │  │  │  │      MiniMapCanvas.prefab
+        │  │  │  │      MiniMapMirror.prefab
+        │  │  │  │      
+        │  │  │  ├─Icon
+        │  │  │  │      BuildingIcon1.prefab
+        │  │  │  │      BuildingIcon1.prefab.meta
+        │  │  │  │      BuildingIcon2.prefab
+        │  │  │  │      BuildingIcon2.prefab.meta
+        │  │  │  │      Crystal_blue.prefab
+        │  │  │  │      Crystal_blue.prefab.meta
+        │  │  │  │      Crystal_red.prefab
+        │  │  │  │      Crystal_red.prefab.meta
+        │  │  │  │      DefaultUnitIcon.prefab
+        │  │  │  │      DefaultUnitIcon.prefab.meta
+        │  │  │  │      PlayerIcon1.prefab
+        │  │  │  │      PlayerIcon1.prefab.meta
+        │  │  │  │      PlayerIcon_00.prefab
+        │  │  │  │      PlayerIcon_00.prefab.meta
+        │  │  │  │      PlayerIcon_01.prefab
+        │  │  │  │      PlayerIcon_01.prefab.meta
+        │  │  │  │      PlayerIcon_019020.prefab
+        │  │  │  │      PlayerIcon_019020.prefab.meta
+        │  │  │  │      PlayerIcon_02.prefab
+        │  │  │  │      PlayerIcon_02.prefab.meta
+        │  │  │  │      PlayerIcon_03.prefab
+        │  │  │  │      PlayerIcon_03.prefab.meta
+        │  │  │  │      PlayerIcon_04.prefab
+        │  │  │  │      PlayerIcon_04.prefab.meta
+        │  │  │  │      Skill03_Bird.prefab
+        │  │  │  │      Skill03_Bird.prefab.meta
+        │  │  │  │      Tower_blue.prefab
+        │  │  │  │      Tower_blue.prefab.meta
+        │  │  │  │      Tower_red.prefab
+        │  │  │  │      Tower_red.prefab.meta
+        │  │  │  │      
+        │  │  │  └─Misc
+        │  │  │          Creep.prefab
+        │  │  │          CreepArrow.prefab
+        │  │  │          ExploreAni.prefab
+        │  │  │          MiniMapRenderTexture.renderTexture
+        │  │  │          MistVisionScope.prefab
+        │  │  │          Skill03_MiniMap.prefab
+        │  │  │          
+        │  │  └─Sprite
+        │  │          1_base_expl.png
+        │  │          Creep.png
+        │  │          CreepArrow.png
+        │  │          UI_Map_Bird.png
+        │  │          UI_Map_BirdTrack.png
+        │  │          UI_minmap.png
+        │  │          UI_minmap_1.png
+        │  │          UI_minmap_fog.png
+        │  │          UI_minmap_fog_1.png
+        │  │          UI_minmap_icon_019020.png
+        │  │          UI_minmap_icon_crystal_b.png
+        │  │          UI_minmap_icon_crystal_r.png
+        │  │          UI_minmap_icon_monster_01.png
+        │  │          UI_minmap_icon_monster_02.png
+        │  │          UI_minmap_icon_tower_b.png
+        │  │          UI_minmap_icon_tower_r.png
+        │  │          UI_minmap_icoon_00.png
+        │  │          UI_minmap_icoon_01.png
+        │  │          UI_minmap_icoon_02.png
+        │  │          UI_minmap_icoon_rim_blue.png
+        │  │          UI_minmap_icoon_rim_blue_arrow.png
+        │  │          UI_minmap_icoon_rim_green.png
+        │  │          UI_minmap_icoon_rim_green_arrow.png
+        │  │          UI_minmap_icoon_rim_red.png
+        │  │          UI_minmap_icoon_rim_red_arrow.png
+        │  │          
+        │  └─SkillIcon
+        │      ├─Prefab
+        │      │      empty.txt
+        │      │      
+        │      └─Sprite
+        │              empty.txt
+        │              
+        ├─Loading
+        │  ├─Prefab
+        │  │      empty.txt
+        │  │      
+        │  └─Sprite
+        │          empty.txt
+        │          
+        ├─Lobby
+        │  ├─BigIcon
+        │  │      010000.png
+        │  │      010001.png
+        │  │      010002.png
+        │  │      
+        │  ├─HeroSelection
+        │  │      UI_HeroSelect.png
+        │  │      UI_HeroSelect_0000.png
+        │  │      UI_HeroSelect_0001.png
+        │  │      UI_HeroSelect_1.png
+        │  │      UI_HeroSelect_2.png
+        │  │      UI_HeroSelect_frame_1.png
+        │  │      UI_HeroSelect_frame_2.png
+        │  │      
+        │  └─SkillIcon
+        │          empty.txt
+        │          
+        ├─Misc
+        │  │  FightButtonGroup.prefab
+        │  │  SelectGamePanel.prefab
+        │  │  
+        │  ├─Animation
+        │  │      FirstKill.anim
+        │  │      
+        │  ├─Common
+        │  │  ├─Sprite
+        │  │  │      arrow_128.png
+        │  │  │      Cycle01.png
+        │  │  │      TX_UI_Joystick_1_BC.png
+        │  │  │      TX_UI_Joystick_BC.png
+        │  │  │      UI_Cancel_Skill.png
+        │  │  │      UI_Cancel_Skill2.png
+        │  │  │      UI_joystic_01.png
+        │  │  │      UI_joystic_01_1.png
+        │  │  │      UI_joystic_02.png
+        │  │  │      UI_joystic_02_1.png
+        │  │  │      UI_joystic_03.png
+        │  │  │      UI_joystic_04.png
+        │  │  │      UI_joystic_04_1.png
+        │  │  │      UI_joystic_05.png
+        │  │  │      UI_joystic_05_1.png
+        │  │  │      UI_joystic_skill.png
+        │  │  │      UI_StartGame.png
+        │  │  │      UI_StartGame_1.png
+        │  │  │      
+        │  │  └─Tmp
+        │  │          BGtmp.png
+        │  │          FakeSkill.png
+        │  │          info.png
+        │  │          magnifier.png
+        │  │          RightIcons.png
+        │  │          store.png
+        │  │          Team.png
+        │  │          
+        │  ├─Skill
+        │  │  │  BuffIconGroup.prefab
+        │  │  │  CDControl.prefab
+        │  │  │  skill_Frame.png
+        │  │  │  
+        │  │  ├─0000
+        │  │  │      skill_01.png
+        │  │  │      skill_02.png
+        │  │  │      skill_03.png
+        │  │  │      skill_04.png
+        │  │  │      
+        │  │  └─0001
+        │  │          skill_01.png
+        │  │          skill_02.png
+        │  │          skill_03.png
+        │  │          skill_04.png
+        │  │          
+        │  ├─Sprite
+        │  │      CloseButtom.png
+        │  │      ExitWar.png
+        │  │      LoginBG.png
+        │  │      LoginButtom.png
+        │  │      setUpBG.png
+        │  │      setUpTmp1.png
+        │  │      
+        │  └─StatusSystem
+        │          CountDownObj.prefab
+        │          ShieldBar.prefab
+        │          StateBar.prefab
+        │          StatusSystem.prefab
+        │          
+        └─Setting
+                empty.txt
+                
