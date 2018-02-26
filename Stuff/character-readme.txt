@@ -25,7 +25,7 @@ Character/
 				MT_<英文名称>_*.mat
 
 			Texture/
-				TX_<英文名称>_*.*    #例: 1st*: Prefix, 2nd*: extension
+				TX_<英文名称>_*.*    #註: 1st*: Prefix, 2nd*: extension
 		
 
 	Character/Prefab/
