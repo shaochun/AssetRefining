@@ -20,6 +20,8 @@
 
 UI/Common/
     Sprite/ (選擇性存在)
+    HeroIcon/
+    	Sprite/
 
 
 UI/Ingame/
