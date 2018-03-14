@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: MT_Hawk_4.4
+  m_Shader: {fileID: 4800000, guid: 1035fa5e125631c43944afa4203c6a1e, type: 3}
+  m_ShaderKeywords: _HASREFL_ON _HASRIM_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 929f4bb3c24f0dd4a9eb1e332de3ddb7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 2800000, guid: 7c76a99f39f9512458159f362179c807, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HairDetail:
+        m_Texture: {fileID: 2800000, guid: 44c9e2bb580433c4c82a4ab2f487f5d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MSTG:
+        m_Texture: {fileID: 2800000, guid: cab65be2b9d73484caa6583292300ac7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Masks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic:
+        m_Texture: {fileID: 2800000, guid: abb151e430899404ab437f03fa379139, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: a699bddee8aa036459ca8c0748414466, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RSE:
+        m_Texture: {fileID: 2800000, guid: 2615f9cbdbb20ee4dbe2245bf676c24b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Reflection:
+        m_Texture: {fileID: 8900000, guid: 79d332ec7cfe69844a422d60f9a6eef2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinLocalThickness:
+        m_Texture: {fileID: 2800000, guid: 35aa6fb9f5350aa42a9c808597f45680, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AnisoOffset: 5.8
+    - _AnisoSpecPower: 0.44
+    - _AnisoSpecular: 1.05
+    - _BumpScale: 1.277
+    - _EmissionScale: 0.455
+    - _EyeGloss: 163.4
+    - _EyeGlossInner: 409
+    - _GlossMapScale: 0.757
+    - _ReflectScale: 0
+    - _RimPower: 5
+    - _RimScale: 2.39
+    - _SkinAttenuation: 0.518
+    - _SkinDistortion: 0.5
+    - _SkinEmissionScale: 1
+    - _SkinPower: 10
+    - _SkinScale: 0.36
+    - _enableSkin: 0
+    - _hasRefl: 1
+    - _hasRim: 1
+    m_Colors:
+    - _AnisoSpecularColor: {r: 0.74264705, g: 0.52226317, b: 0.32217777, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EyeColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EyeFakeGlossVector: {r: 0, g: 0, b: 1, a: 0}
+    - _EyeSpecular: {r: 1, g: 1, b: 1, a: 1}
+    - _FakeLight: {r: 1, g: 1, b: 1, a: 0}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _RimColor: {r: 0.188311, g: 0.5395844, b: 0.9485294, a: 0}
+    - _SkinAmbient: {r: 1, g: 1, b: 1, a: 0}
+    - _SkinColor: {r: 1, g: 1, b: 1, a: 1}
