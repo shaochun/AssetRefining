@@ -13,10 +13,10 @@ Environment/
 
     Environment/Animation
 
-    Environment/FBX
+    Environment/Fbx
 
-        SK_<英文名稱>_*.FBX
-        SM_<英文名稱>_*.FBX
+        SK_<英文名稱>_*.Fbx
+        SM_<英文名稱>_*.Fbx
 
 
     Environment/Lightmap

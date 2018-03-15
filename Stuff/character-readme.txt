@@ -27,8 +27,8 @@ Character/<数字>_<英文名称>/
             AC_<英文名称>_Animation_<皮肤编号>.overController 
             # (武器动作(Weapon)会和角色动作做在一起.
 
-        FBX/
-            SK_<英文名称>_<皮肤编号>.FBX
+        Fbx/
+            SK_<英文名称>_<皮肤编号>.Fbx
             SK_<英文名称>_Weapon_<皮肤编号>_*.mat
 
         Material/

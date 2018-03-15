@@ -14,8 +14,8 @@ Effect/
             AC_<英文名稱>.controller
 
         # 模型復用，所有的特效模型 存於此處。
-        FBX/
-            SK_<英文名稱>.FBX
+        Fbx/
+            SK_<英文名稱>.Fbx
 
         Material/
             MT_<英文名稱>.mat
