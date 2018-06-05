@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -747408200, guid: 05a90ecb29e01234fafdfea3b51d56eb, type: 3}
+  m_Name: atlasconfig
+  m_EditorClassIdentifier: 
+  atlasList:
+  - name: Ingame_Battle
+    paddingList:
+    - name: Line
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_BanSkill_Mask_1
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Battle
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Battle_6
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Battle_7
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Defeat
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_kill_02
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_kill_board_blue
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_kill_board_blue_1
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_kill_board_dead
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_kill_board_dead_1
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_kill_board_red
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_kill_board_red_1
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_kill_Houyi
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_kill_line
+      padding: {x: 0, y: 5, z: 2, w: 1}
+    - name: UI_kill_line_1
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_kill_Lvbu
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_kill_rim_blue
+      padding: {x: 0, y: 1, z: 0, w: 0}
+    - name: UI_kill_rim_blue_1
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_kill_rim_red
+      padding: {x: 0, y: 1, z: 0, w: 0}
+    - name: UI_kill_rim_red_1
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_MagicAttack
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_MagicDefense
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_PhysicalAttack
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_PhysicalDefense
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Skill_Countdown
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Skill_LevelUp_Effect
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Skill_LevelUp_Effect2
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_TargetHp
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_TargetIngorBG
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_TargetMp
+      padding: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Victory
+      padding: {x: 0, y: 0, z: 0, w: 0}
